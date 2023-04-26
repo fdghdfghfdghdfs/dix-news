@@ -1,0 +1,131 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+.nana-container {
+  padding: 15px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.max-content {
+  max-width: 1100px;
+}
+.just-properties {
+  padding: 15px;
+  margin: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.include-horizontal {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ignore-vertical {
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+.nana-notification {
+  padding-left: 15px;
+  /* color: #fafafa; */
+  color: #d7d7d7;
+}
+.white-box {
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  padding: 15px;
+  background-color: var(--gray-dark);
+  color: #fafafa;
+  margin: 15px;
+  line-height: 2;
+}
+.light {
+  color: #fafafa;
+}
+.plain {
+  background-color: transparent;
+}
+.bold {
+  font-weight: 700;
+}
+.btn {
+  padding: 6px 10px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+.row {
+  flex-direction: row;
+}
+.left-auto {
+  margin-left: auto;
+}
+.text--larger {
+  font-size: larger;
+}
+.text--small {
+  font-size: 14px;
+}
+.text--italic {
+  font-weight: 100;
+}
+/* Custom theme properties start */
+.btn-primary {
+  background: var(--indigo);
+  background-image: none;
+}
+.input-group .form-control:last-child, .input-group-btn:last-child>.dropdown-toggle, .input-group-btn:first-child>.btn:not(:first-child) {
+  border-left: 1px solid #e14eca !important;
+}
+.form-group .input-group-prepend .input-group-text, .form-group .input-group-append .input-group-text, .input-group .input-group-prepend .input-group-text, .input-group .input-group-append .input-group-text {
+  padding: 10px 18px 10px 18px;
+}
+.input-group-prepend {
+  background: var(--indigo);
+  border-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-control {
+  border-radius: 6px;
+}
+/* Custom theme properties end */
+
+.placeholder {
+  border-radius: 6px;
+  background-color: var(--gray-dark);
+  padding: 15px;
+  margin: 15px;
+  line-height: 2;
+}
+
+.path-title {
+  border-radius: 6px;
+  background-color: var(--indigo);
+  width: 100%;
+  height: 30px;
+}
+
+.path-line {
+  border-radius: 6px;
+  background-color: var(--indigo);
+  width: 100%;
+  height: 30px;
+}
+
+.long {
+  width: 85%;
+}
+.medium {
+  width: 65%;
+}
+.small {
+  width: 40%;
+}
+.smaller {
+  width: 20%;
+}
